@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   min-height: 100vh;
+  background: #212529;
 }
 
 .App-logo {
@@ -14,7 +15,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-style: italic;
   margin-bottom: 12px;
+  color: #cbd3da;
 }
 
 .App-link {
@@ -33,9 +36,23 @@
   margin-bottom: 12px;
 }
 
+.Toggle-button {
+  transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.paused {
+  color: white;
+  border-color: dimgrey;
+}
+
+.active {
+  color: white;
+  background-color: green;
+}
+
 .Graph {
-  min-height: 50vh;
-  width: 700px;
+  min-height: 60vh;
+  width: 70vh;
   margin-bottom: 12px;
 }
 
